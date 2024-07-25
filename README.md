@@ -6,6 +6,25 @@ For stuff I haven't used in a _long_ time (e.g. C, C++, Java), I might have conf
 Often, I run into compatibility issues between plugins and/or non-plugin configuration.
 Plugins are bad sometimes and don't listen to my configuration.
 
+# TODO:
+- [ ] Find documentation for vim configuration folder structure
+- [ ] Figure out how I need to lay things out:
+  - [ ] "Base" `vimrc`
+  - [ ] Language-specific (file-extension determines) `vimrc` additions
+  - [ ] File extension associations
+      - [ ] How to not fuckup the builtin ones
+      - [ ] How to un-fuckup the builtin ones
+      - [ ] What's a good default?
+  - [ ] Syntax files
+  - [ ] Scripts
+  - [ ] colorschemes
+- [ ] Add my goto minimal `vimrc`
+- [ ] Add whatever I figured out to make `:sh` with with my `.bash_profile` or `.bashrc`
+- [ ] Add the all colorschemes I've accrued
+- [ ] How to get around saving a file that I should've opened with `sudo`
+    - [ ] At minimum: Write down copy-pastable instructions.
+    - [ ] Can I make it a command?
+
 ## Configurations
 ### Programming Languages
 - [ ] C
@@ -27,11 +46,12 @@ Plugins are bad sometimes and don't listen to my configuration.
 - [ ] `json`
 - [ ] `yaml`
 - [ ] HTML
-- [ ] LaTeX
 - [ ] lilypond
 
 ### Word Processing
 - [ ] Markdown
+- [ ] LaTeX
+- [ ] Text
 
 ### Platforms
 - [ ] macOS
@@ -49,8 +69,9 @@ Plugins are bad sometimes and don't listen to my configuration.
 
 ## Goals
 - One `vim` configuration/something to rule them all that's easy to install on new machines
-  - Should I just `git clone`?
-  - Should I make this a plugin? Will it install the plugins I want?
+  - Should I just `git clone` the entire thing?
+  - Should I make this a plugin? Will it recursively install the plugins I want?
+  - Can we just symlink?
   - How will this change for each platform?
 - Create copy-pastable segments for quick and dirty `vim` setups (e.g. _just_ a `vimrc`)
 - Gather all the `colorschemes`
@@ -71,7 +92,8 @@ Plugins are bad sometimes and don't listen to my configuration.
 - Understand `vimrc` and `vim` plugin structure
   - Should I have a base config for all files and specific configs for each language?
   - Can I have a single base `.vimrc` and language-specific `vimrc`'s?
-- What takes the most juice to run?
+- Performance
+  - Bootup
   - Preferences
   - Plugins
 - For platforms I care about:
@@ -86,7 +108,7 @@ Plugins are bad sometimes and don't listen to my configuration.
 - Install `vim`
 - Configure NeoVim
 - Configure MacVim
-- Make it work for everyone else
+- Make it turnkey for everyone else
 - Create a "minimal" or "clean" `vimrc`
 - Support every terminal emulator
 - Solve all terminal encoding issues
