@@ -68,6 +68,11 @@ Plugins are bad sometimes and don't listen to my configuration.
 - [ ] Raspberry Pi
 
 ## Goals
+- Retain most of my current functionality / workflow
+- Fix crap that's been annoying me
+    - Markdown generator ignores my file extension rules
+    - HTML formatting doesn't work well
+    - Python syntax highlighting should be way better
 - One `vim` configuration/something to rule them all that's easy to install on new machines
   - Should I just `git clone` the entire thing?
   - Should I make this a plugin? Will it recursively install the plugins I want?
