@@ -103,7 +103,16 @@ Plugins are bad sometimes and don't listen to my configuration.
 - Airline
   - How do I get this to work everywhere?
   - Should I even care about this?
- 
+- What should I just make myself?
+    - Scripts
+    - Plugins
+- What should I do about shitty colorschemes?
+- What basic stuff can I port into IDEs for their `vim` plugins?
+    - Overleaf/ShareLaTeX
+    - VSCode
+    - PyCharm
+    - Eclipse
+
 ## Non-Goals
 - Install `vim`
 - Configure NeoVim
@@ -120,4 +129,6 @@ Plugins are bad sometimes and don't listen to my configuration.
   - Syntax
   - Glossary
   - Folder Structure
-- 
+- The Ultimate vimrc
+  - [amix/vimrc](https://github.com/amix/vimrc)
+  - [amix/vimrc | vimrcs/basic.vim](https://github.com/amix/vimrc/blob/ee7e06290982e91a55a631c32d8ba79466ce4c64/vimrcs/basic.vim)
