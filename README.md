@@ -8,42 +8,44 @@ Plugins are bad sometimes and don't listen to my configuration.
 
 ## Configurations
 ### Programming Languages
-- C
-- C++
-- Java
-- `bash`
-- Python
-- Javascript
-- Ruby
-- Typescript
-- Rust
-- Prolog
-- Lua
-- Racket
-- Haskell
+- [ ] C
+- [ ] C++
+- [ ] Java
+- [ ] `bash`
+- [ ] Python
+- [ ] Javascript
+- [ ] Ruby
+- [ ] Typescript
+- [ ] Rust
+- [ ] Prolog
+- [ ] Lua
+- [ ] Racket
+- [ ] Haskell
 
 ### Configuration / Markup
-- `vimrc`
-- `json`
-- `yaml`
-- HTML
+- [ ] `vimrc`
+- [ ] `json`
+- [ ] `yaml`
+- [ ] HTML
+- [ ] LaTeX
+- [ ] lilypond
 
 ### Word Processing
-- Markdown
+- [ ] Markdown
 
 ### Platforms
-- macOS
-- Linux
-  - Debian
-  - Raspbian
-  - NixOS
-  - Arch
-  - Fedora
-- Unix
-  - FreeBSD
-  - MINIX
-- Windows
-- Raspberry Pi
+- [ ] macOS
+- [ ] Linux
+  - [ ] Debian
+  - [ ] Raspbian
+  - [ ] NixOS
+  - [ ] Arch
+  - [ ] Fedora
+- [ ] Unix
+  - [ ] FreeBSD
+  - [ ] MINIX
+- [ ] Windows
+- [ ] Raspberry Pi
 
 ## Goals
 - One `vim` configuration/something to rule them all that's easy to install on new machines
